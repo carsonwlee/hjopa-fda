@@ -1,12 +1,5 @@
 # HJOPA - HondaJet Flight Scoring Envelope
 
-## Overall Weights
-
-| Evaluate   | Weight   |
-|:-----------|:---------|
-| Maneuvers  | 25%      |
-| Approaches | 75%      |
-
 ## Instrument Approach
 ### Approaches
 
@@ -37,14 +30,6 @@
 | Touchdown Norm Acceleration                                  | 3%       |               1   | 1.3               | g                | N/A                    | N/A                    | N/A               |
 | Touchdown Lateral Acceleration                               | 5%       |               0   | 0.3               | g                | N/A                    | N/A                    | N/A               |
 | Minimum Runway Remaining, relative to SOP/MRR_TD             | 6%       |            -200   | -200.0            | ft               | N/A                    | N/A                    | N/A               |
-
-## Safe departure IAS
-### Maneuvers
-
-| Evaluate                      | Weight   |   Tolerance Lower | Tolerance Upper   | Tolerance Unit   |   Evaluate lower limit |   Evaluate upper limit | Evaluation Unit   |
-|:------------------------------|:---------|------------------:|:------------------|:-----------------|-----------------------:|-----------------------:|:------------------|
-| Airspeed above Vx [EFIS data] | 17%      |                -1 | N/A               | kts              |                     30 |                    150 | ft AGL            |
-| Airspeed above Vy [EFIS data] | 33%      |                -1 | N/A               | kts              |                    150 |                   1000 | ft AGL            |
 
 ## Stabilized Visual approach
 ### Approaches

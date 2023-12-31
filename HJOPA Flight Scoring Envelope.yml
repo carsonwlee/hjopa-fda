@@ -1,11 +1,3 @@
-- Group: Overall Weights
-  Evaluate: Maneuvers
-  Weight: 25%
-
-- Group: Overall Weights
-  Evaluate: Approaches
-  Weight: 75%
-
 - Group: Instrument Approach
   Segment Group: Approaches
   Evaluate: Altitude at Fixes (GPS)
@@ -215,26 +207,6 @@
   Tolerance Upper: -200
   Tolerance Unit: ft
   Weight: 6%
-
-- Group: Safe departure IAS
-  Segment Group: Maneuvers
-  Evaluate: Airspeed above Vx [EFIS data]
-  Tolerance Lower: -1
-  Tolerance Unit: kts
-  Evaluate lower limit: 30
-  Evaluate upper limit: 150
-  Evaluation Unit: ft AGL
-  Weight: 17%
-
-- Group: Safe departure IAS
-  Segment Group: Maneuvers
-  Evaluate: Airspeed above Vy [EFIS data]
-  Tolerance Lower: -1
-  Tolerance Unit: kts
-  Evaluate lower limit: 150
-  Evaluate upper limit: 1000
-  Evaluation Unit: ft AGL
-  Weight: 33%
 
 - Group: Stabilized Visual approach
   Segment Group: Approaches
