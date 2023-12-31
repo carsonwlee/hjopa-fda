@@ -380,3 +380,269 @@
   Tolerance Upper: -200
   Tolerance Unit: ft
   Weight: 12%
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Max bank in flight
+  Caution Lower: 60
+  Caution Upper: 70
+  Unit: bank
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Max speed below 10000ft
+  Caution Lower: 260
+  Caution Upper: 270
+  Unit: IAS
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Max taxi speed
+  Caution Lower: 30
+  Caution Upper: 35
+  Unit: gs
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - high below 1000ft
+  Caution Lower: 17
+  Caution Upper: 19
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - high below 200ft
+  Caution Lower: 17
+  Caution Upper: 19
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - high below 200ft
+  Caution Lower: 17
+  Caution Upper: 19
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - low below 1000ft
+  Caution Lower: -11
+  Caution Upper: -13
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - low below 200ft
+  Caution Lower: -11
+  Caution Upper: -13
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - low below 50ft
+  Caution Lower: -9
+  Caution Upper: -11
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Pitch - low below 20ft
+  Caution Lower: -3
+  Caution Upper: -4
+  Unit: pitch
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Bank - max below 1000ft
+  Caution Lower: 45
+  Caution Upper: 50
+  Unit: bank
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Bank - max below 200ft
+  Caution Lower: 30
+  Caution Upper: 40
+  Unit: bank
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Sink rate - max below 1000ft
+  Caution Lower: -2000
+  Caution Upper: -2500
+  Unit: VS
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Sink rate - max below 500ft
+  Caution Lower: -1300
+  Caution Upper: -1500
+  Unit: VS
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Sink rate - max below 200ft
+  Caution Lower: -1300
+  Caution Upper: -1500
+  Unit: VS
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: N1 - max below 500ft
+  Caution Lower: 60
+  Caution Upper: 65
+  Unit: N1
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: N1 - min below 200ft
+  Caution Lower: 40
+  Caution Upper: 45
+  Unit: N1
+
+- Group: Flight Data Analysis 
+  Flight Rules: All
+  Evaluate: Outside extnd. RW below 200
+  Caution Lower: 1
+  Caution Upper: 10
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS - max below 1000
+  Caution Lower: 120
+  Caution Upper: 140
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS - max below 500
+  Caution Lower: 120
+  Caution Upper: 140
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS - max below 200
+  Caution Lower: 120
+  Caution Upper: 140
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: AP - engage altitude AFE
+  Caution Lower: 250
+  Caution Upper: 400
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: AP - disengage altitude AFE
+  Caution Lower: 200
+  Caution Upper: 300
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS-Vref - high below 200
+  Caution Lower: 10
+  Caution Upper: 15
+  Unit: kts
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS-Vref - low below 200
+  Caution Lower: -6
+  Caution Upper: -10
+  Unit: kts
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS-Vref - high at 50' AGL
+  Caution Lower: 5
+  Caution Upper: 10
+  Unit: kts
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: IAS-Vref - low at 50' AGL
+  Caution Lower: -6
+  Caution Upper: -10
+  Unit: kts
+
+- Group: Flight Data Analysis
+  Flight Rules: IFR
+  Evaluate: Configured fully - AFE
+  Caution Lower: 900
+  Caution Upper: 700
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: VFR
+  Evaluate: Configured fully - AFE
+  Caution Lower: 900
+  Caution Upper: 700
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: THLD - high IAS-Vref
+  Caution Lower: 5
+  Caution Upper: 10
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: THLD - low IAS-Vref
+  Caution Lower: -6
+  Caution Upper: -10
+  Unit: ft
+
+- Group: Flight Data Analysis 
+  Flight Rules: All
+  Evaluate: THLD - high AGL-TCH
+  Caution Lower: 30
+  Caution Upper: 50
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: THLD - low AGL-TCH
+  Caution Lower: -14
+  Caution Upper: -19
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: THLD - low AGL
+  Caution Lower: 10
+  Caution Upper: 20
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Touchdown distance - long
+  Caution Lower: 1500
+  Caution Upper: 2000
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: Touchdown distance - short
+  Caution Lower: 200
+  Caution Upper: 100
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: RWY remaining @40 kts
+  Caution Lower: 600
+  Caution Upper: 400
+  Unit: ft
+
+- Group: Flight Data Analysis
+  Flight Rules: All
+  Evaluate: RWY remaining @70 kts
+  Caution Lower: 1300
+  Caution Upper: 1000
+  Unit: ft

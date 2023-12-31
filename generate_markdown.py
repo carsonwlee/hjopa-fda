@@ -26,6 +26,18 @@ def main():
             # Only use 'Evaluate' and 'Weight' columns for 'Overall Weights'
             markdown_table = create_markdown_table(group_df, ['Evaluate', 'Weight'])
             markdown_output += f"## {group}\n\n{markdown_table}\n\n"
+        elif group == 'Flight Data Analysis':
+            # Create a new DataFrame for 'Flight Data Analysis'
+            flight_data_df = pd.DataFrame()
+            flight_data_df['All'] = group_df['Flight Rules'].apply(lambda x: 'x' if x == 'All' else '')
+            flight_data_df['VFR'] = group_df['Flight Rules'].apply(lambda x: 'x' if x == 'VFR' else '')
+            flight_data_df['IFR'] = group_df['Flight Rules'].apply(lambda x: 'x' if x == 'IFR' else '')
+            flight_data_df['Evaluate'] = group_df['Evaluate']
+            flight_data_df['Caution Lower'] = group_df['Caution Lower'] if 'Caution Lower' in group_df.columns else None
+            flight_data_df['Caution Upper'] = group_df['Caution Upper'] if 'Caution Upper' in group_df.columns else None
+            flight_data_df['Unit'] = group_df['Unit']
+            markdown_table = flight_data_df.to_markdown(index=False)
+            markdown_output += f"## {group}\n\n{markdown_table}\n\n"
         elif 'Segment Group' in group_df.columns:
             for segment_group in group_df['Segment Group'].unique():
                 segment_group_df = group_df[group_df['Segment Group'] == segment_group]
