@@ -1,620 +1,620 @@
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Altitude at Fixes (GPS)
-  Tolerance Lower: -100
-  Tolerance Unit: ft
-  Weight: 4%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Altitude at Fixes (Baro)
-  Tolerance Lower: -100
-  Tolerance Unit: ft
-  Evaluate lower limit: 500
-  Evaluate upper limit: 1000
-  Evaluation Unit: ft AGL
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Airspeed within range 1000'-500' Non-Circling [Vref+]
-  Tolerance Lower: 0
-  Tolerance Upper: 15
-  Tolerance Unit: kts
-  Evaluate lower limit: 500
-  Evaluate upper limit: 1000
-  Evaluation Unit: ft AGL
-  Weight: 2%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Airspeed within range 1000'-500', Circling [Vref+]
-  Tolerance Lower: 15
-  Tolerance Upper: 25
-  Tolerance Unit: kts
-  Evaluate lower limit: 500
-  Evaluate upper limit: 1000
-  Evaluation Unit: ft AGL
-  Weight: 2%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Airspeed within range 500' AGL to THLD [Vref+]
-  Tolerance Lower: -2
-  Tolerance Upper: 10
-  Tolerance Unit: kts
-  Evaluate lower limit: 500
-  Evaluate upper limit: 1000
-  Evaluation Unit: ft AGL
-  Weight: 3%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: ILS GS accuracy
-  Tolerance Lower: -1
-  Tolerance Upper: 1
-  Tolerance Unit: dots
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: ILS LOC accuracy
-  Tolerance Lower: -1
-  Tolerance Upper: 1
-  Tolerance Unit: dots
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Lateral accuracy after FAF (GPS approach)
-  Tolerance Lower: -1
-  Tolerance Upper: 1
-  Tolerance Unit: dots
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: VOR course accuracy after FAF
-  Tolerance Lower: -6
-  Tolerance Upper: 6
-  Tolerance Unit: deg
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Airspeed consistency
-  Tolerance Lower: -10
-  Tolerance Upper: 10
-  Tolerance Unit: kts
-  Weight: 3%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Vertical speed within range (normal descent)
-  Tolerance Lower: -1000
-  Tolerance Upper: -300
-  Tolerance Unit: fpm
-  Weight: 2%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Vertical speed within range (steep "dive" of dive and drive)
-  Tolerance Lower: -1100
-  Tolerance Upper: -650
-  Tolerance Unit: fpm
-  Weight: 2%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Vertical speed consistency
-  Tolerance Lower: -300
-  Tolerance Upper: 300
-  Tolerance Unit: fpm
-  Weight: 3%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Circling within the protected area
-  Tolerance Lower: 0
-  Tolerance Upper: 0.1
-  Tolerance Unit: nm
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Circling speed
-  Tolerance Lower: 15
-  Tolerance Upper: 25
-  Tolerance Unit: kts
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: TRK over THLD
-  Tolerance Lower: -1.5
-  Tolerance Upper: 1.5
-  Tolerance Unit: deg
-  Weight: 3%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: THLD crossing AGL (TCH+)
-  Tolerance Lower: 0
-  Tolerance Upper: 30
-  Tolerance Unit: ft
-  Weight: 6%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: THLD crossing AGL above min
-  Tolerance Lower: 5
-  Tolerance Upper: 10
-  Tolerance Unit: ft
-  Weight: 6%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: THLD-crossing IAS [Vref+]
-  Tolerance Lower: -5
-  Tolerance Upper: 10
-  Tolerance Unit: kts
-  Weight: 6%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: IAS at TD [Vref+]
-  Tolerance Lower: -20
-  Tolerance Upper: -6
-  Tolerance Unit: kts
-  Weight: 4%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Distance from THLD (1000+)
-  Tolerance Lower: -600
-  Tolerance Upper: 1000
-  Tolerance Unit: ft
-  Weight: 4%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Distance from centerline
-  Tolerance Lower: 0
-  Tolerance Upper: 15
-  Tolerance Unit: ft
-  Weight: 4%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Norm Acceleration
-  Tolerance Lower: 1
-  Tolerance Upper: 1.3
-  Tolerance Unit: g
-  Weight: 3%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Lateral Acceleration
-  Tolerance Lower: 0
-  Tolerance Upper: 0.3
-  Tolerance Unit: g
-  Weight: 5%
-
-- Group: Instrument Approach
-  Segment Group: Approaches
-  Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
-  Tolerance Lower: -200
-  Tolerance Upper: -200
-  Tolerance Unit: ft
-  Weight: 6%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Airspeed within range [Vref+]
-  Tolerance Lower: -5
-  Tolerance Upper: 10
-  Tolerance Unit: kts
-  Evaluate lower limit: 50
-  Evaluate upper limit: 500
-  Evaluation Unit: ft AGL
-  Weight: 9%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Airspeed consistency
-  Tolerance Lower: -10
-  Tolerance Upper: 10
-  Tolerance Unit: kts
-  Weight: 5%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Vertical speed within range
-  Tolerance Lower: -800
-  Tolerance Upper: -300
-  Tolerance Unit: fpm
-  Evaluate lower limit: 50
-  Evaluate upper limit: 500
-  Weight: 5%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Vertical speed consistency
-  Tolerance Lower: -300
-  Tolerance Upper: 300
-  Tolerance Unit: fpm
-  Evaluate lower limit: 50
-  Evaluate upper limit: 500
-  Weight: 5%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Vertical speed consistency
-  Tolerance Lower: -300
-  Tolerance Upper: 300
-  Tolerance Unit: fpm
-  Evaluate lower limit: 50
-  Evaluate upper limit: 500
-  Weight: 5%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Centerline Deviation
-  Tolerance Lower: -5
-  Tolerance Upper: 5
-  Tolerance Unit: deg
-  Weight: 5%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: THLD crossing AGL (TCH+)
-  Tolerance Lower: 0
-  Tolerance Upper: 30
-  Tolerance Unit: ft
-  Weight: 12%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: THLD crossing AGL above min
-  Tolerance Lower: 5
-  Tolerance Upper: 20
-  Tolerance Unit: ft
-  Weight: 2%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: THLD-crossing IAS [Vref+]
-  Tolerance Lower: -5
-  Tolerance Upper: 10
-  Tolerance Unit: kts
-  Weight: 0%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: IAS over 50 AGL [Vref+]
-  Tolerance Lower: -5
-  Tolerance Upper: 15
-  Tolerance Unit: kts
-  Weight: 12%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: IAS at TD [Vref+]
-  Tolerance Lower: -20
-  Tolerance Upper: -6
-  Tolerance Unit: kts
-  Weight: 7%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Distance from THLD (1000+)
-  Tolerance Lower: -600
-  Tolerance Upper: 1000
-  Tolerance Unit: ft
-  Weight: 0%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Distance from 50 AGL
-  Tolerance Lower: 700
-  Tolerance Upper: 1600
-  Tolerance Unit: ft
-  Weight: 7%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Distance from centerline
-  Tolerance Lower: 0
-  Tolerance Upper: 15
-  Tolerance Unit: ft
-  Weight: 7%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Norm Acceleration
-  Tolerance Lower: 1
-  Tolerance Upper: 1.3
-  Tolerance Unit: g
-  Weight: 5%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Touchdown Lateral Acceleration
-  Tolerance Lower: 0
-  Tolerance Upper: 0.3
-  Tolerance Unit: g
-  Weight: 9%
-
-- Group: Stabilized Visual approach
-  Segment Group: Approaches
-  Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
-  Tolerance Lower: -200
-  Tolerance Upper: -200
-  Tolerance Unit: ft
-  Weight: 12%
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Max bank in flight
-  Caution Lower: 60
-  Caution Upper: 70
-  Unit: bank
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Max speed below 10000ft
-  Caution Lower: 260
-  Caution Upper: 270
-  Unit: IAS
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Max taxi speed
-  Caution Lower: 30
-  Caution Upper: 35
-  Unit: gs
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - high below 1000ft
-  Caution Lower: 17
-  Caution Upper: 19
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - high below 200ft
-  Caution Lower: 17
-  Caution Upper: 19
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - high below 200ft
-  Caution Lower: 17
-  Caution Upper: 19
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - low below 1000ft
-  Caution Lower: -11
-  Caution Upper: -13
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - low below 200ft
-  Caution Lower: -11
-  Caution Upper: -13
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - low below 50ft
-  Caution Lower: -9
-  Caution Upper: -11
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Pitch - low below 20ft
-  Caution Lower: -3
-  Caution Upper: -4
-  Unit: pitch
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Bank - max below 1000ft
-  Caution Lower: 45
-  Caution Upper: 50
-  Unit: bank
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Bank - max below 200ft
-  Caution Lower: 30
-  Caution Upper: 40
-  Unit: bank
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Sink rate - max below 1000ft
-  Caution Lower: -2000
-  Caution Upper: -2500
-  Unit: VS
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Sink rate - max below 500ft
-  Caution Lower: -1300
-  Caution Upper: -1500
-  Unit: VS
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Sink rate - max below 200ft
-  Caution Lower: -1300
-  Caution Upper: -1500
-  Unit: VS
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: N1 - max below 500ft
-  Caution Lower: 60
-  Caution Upper: 65
-  Unit: N1
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: N1 - min below 200ft
-  Caution Lower: 40
-  Caution Upper: 45
-  Unit: N1
-
-- Group: Flight Data Analysis 
-  Flight Rules: All
-  Evaluate: Outside extnd. RW below 200
-  Caution Lower: 1
-  Caution Upper: 10
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS - max below 1000
-  Caution Lower: 120
-  Caution Upper: 140
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS - max below 500
-  Caution Lower: 120
-  Caution Upper: 140
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS - max below 200
-  Caution Lower: 120
-  Caution Upper: 140
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: AP - engage altitude AFE
-  Caution Lower: 250
-  Caution Upper: 400
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: AP - disengage altitude AFE
-  Caution Lower: 200
-  Caution Upper: 300
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS-Vref - high below 200
-  Caution Lower: 10
-  Caution Upper: 15
-  Unit: kts
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS-Vref - low below 200
-  Caution Lower: -6
-  Caution Upper: -10
-  Unit: kts
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS-Vref - high at 50' AGL
-  Caution Lower: 5
-  Caution Upper: 10
-  Unit: kts
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: IAS-Vref - low at 50' AGL
-  Caution Lower: -6
-  Caution Upper: -10
-  Unit: kts
-
-- Group: Flight Data Analysis
-  Flight Rules: IFR
-  Evaluate: Configured fully - AFE
-  Caution Lower: 900
-  Caution Upper: 700
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: VFR
-  Evaluate: Configured fully - AFE
-  Caution Lower: 900
-  Caution Upper: 700
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: THLD - high IAS-Vref
-  Caution Lower: 5
-  Caution Upper: 10
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: THLD - low IAS-Vref
-  Caution Lower: -6
-  Caution Upper: -10
-  Unit: ft
-
-- Group: Flight Data Analysis 
-  Flight Rules: All
-  Evaluate: THLD - high AGL-TCH
-  Caution Lower: 30
-  Caution Upper: 50
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: THLD - low AGL-TCH
-  Caution Lower: -14
-  Caution Upper: -19
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: THLD - low AGL
-  Caution Lower: 10
-  Caution Upper: 20
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Touchdown distance - long
-  Caution Lower: 1500
-  Caution Upper: 2000
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: Touchdown distance - short
-  Caution Lower: 200
-  Caution Upper: 100
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: RWY remaining @40 kts
-  Caution Lower: 600
-  Caution Upper: 400
-  Unit: ft
-
-- Group: Flight Data Analysis
-  Flight Rules: All
-  Evaluate: RWY remaining @70 kts
-  Caution Lower: 1300
-  Caution Upper: 1000
-  Unit: ft
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Altitude at Fixes (GPS)
+    Tolerance Lower: -100
+    Tolerance Unit: ft
+    Weight: 4%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Altitude at Fixes (Baro)
+    Tolerance Lower: -100
+    Tolerance Unit: ft
+    Evaluate lower limit: 500
+    Evaluate upper limit: 1000
+    Evaluation Unit: ft AGL
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Airspeed within range 1000'-500' Non-Circling [Vref+]
+    Tolerance Lower: 0
+    Tolerance Upper: 15
+    Tolerance Unit: kts
+    Evaluate lower limit: 500
+    Evaluate upper limit: 1000
+    Evaluation Unit: ft AGL
+    Weight: 2%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Airspeed within range 1000'-500', Circling [Vref+]
+    Tolerance Lower: 15
+    Tolerance Upper: 25
+    Tolerance Unit: kts
+    Evaluate lower limit: 500
+    Evaluate upper limit: 1000
+    Evaluation Unit: ft AGL
+    Weight: 2%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Airspeed within range 500' AGL to THLD [Vref+]
+    Tolerance Lower: -2
+    Tolerance Upper: 10
+    Tolerance Unit: kts
+    Evaluate lower limit: 500
+    Evaluate upper limit: 1000
+    Evaluation Unit: ft AGL
+    Weight: 3%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: ILS GS accuracy
+    Tolerance Lower: -1
+    Tolerance Upper: 1
+    Tolerance Unit: dots
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: ILS LOC accuracy
+    Tolerance Lower: -1
+    Tolerance Upper: 1
+    Tolerance Unit: dots
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Lateral accuracy after FAF (GPS approach)
+    Tolerance Lower: -1
+    Tolerance Upper: 1
+    Tolerance Unit: dots
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: VOR course accuracy after FAF
+    Tolerance Lower: -6
+    Tolerance Upper: 6
+    Tolerance Unit: deg
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Airspeed consistency
+    Tolerance Lower: -10
+    Tolerance Upper: 10
+    Tolerance Unit: kts
+    Weight: 3%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Vertical speed within range (normal descent)
+    Tolerance Lower: -1000
+    Tolerance Upper: -300
+    Tolerance Unit: fpm
+    Weight: 2%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Vertical speed within range (steep "dive" of dive and drive)
+    Tolerance Lower: -1100
+    Tolerance Upper: -650
+    Tolerance Unit: fpm
+    Weight: 2%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Vertical speed consistency
+    Tolerance Lower: -300
+    Tolerance Upper: 300
+    Tolerance Unit: fpm
+    Weight: 3%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Circling within the protected area
+    Tolerance Lower: 0
+    Tolerance Upper: 0.1
+    Tolerance Unit: nm
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Circling speed
+    Tolerance Lower: 15
+    Tolerance Upper: 25
+    Tolerance Unit: kts
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: TRK over THLD
+    Tolerance Lower: -1.5
+    Tolerance Upper: 1.5
+    Tolerance Unit: deg
+    Weight: 3%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: THLD crossing AGL (TCH+)
+    Tolerance Lower: 0
+    Tolerance Upper: 30
+    Tolerance Unit: ft
+    Weight: 6%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: THLD crossing AGL above min
+    Tolerance Lower: 5
+    Tolerance Upper: 10
+    Tolerance Unit: ft
+    Weight: 6%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: THLD-crossing IAS [Vref+]
+    Tolerance Lower: -5
+    Tolerance Upper: 10
+    Tolerance Unit: kts
+    Weight: 6%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: IAS at TD [Vref+]
+    Tolerance Lower: -20
+    Tolerance Upper: -6
+    Tolerance Unit: kts
+    Weight: 4%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Distance from THLD (1000+)
+    Tolerance Lower: -600
+    Tolerance Upper: 1000
+    Tolerance Unit: ft
+    Weight: 4%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Distance from centerline
+    Tolerance Lower: 0
+    Tolerance Upper: 15
+    Tolerance Unit: ft
+    Weight: 4%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Norm Acceleration
+    Tolerance Lower: 1
+    Tolerance Upper: 1.3
+    Tolerance Unit: g
+    Weight: 3%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Lateral Acceleration
+    Tolerance Lower: 0
+    Tolerance Upper: 0.3
+    Tolerance Unit: g
+    Weight: 5%
+
+  - Group: Instrument Approach
+    Segment Group: Approaches
+    Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
+    Tolerance Lower: -200
+    Tolerance Upper: -200
+    Tolerance Unit: ft
+    Weight: 6%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Airspeed within range [Vref+]
+    Tolerance Lower: -5
+    Tolerance Upper: 10
+    Tolerance Unit: kts
+    Evaluate lower limit: 50
+    Evaluate upper limit: 500
+    Evaluation Unit: ft AGL
+    Weight: 8%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Airspeed consistency
+    Tolerance Lower: -10
+    Tolerance Upper: 10
+    Tolerance Unit: kts
+    Weight: 5%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Vertical speed within range
+    Tolerance Lower: -800
+    Tolerance Upper: -300
+    Tolerance Unit: fpm
+    Evaluate lower limit: 50
+    Evaluate upper limit: 500
+    Weight: 5%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Vertical speed consistency
+    Tolerance Lower: -300
+    Tolerance Upper: 300
+    Tolerance Unit: fpm
+    Evaluate lower limit: 50
+    Evaluate upper limit: 500
+    Weight: 5%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Vertical speed consistency
+    Tolerance Lower: -300
+    Tolerance Upper: 300
+    Tolerance Unit: fpm
+    Evaluate lower limit: 50
+    Evaluate upper limit: 500
+    Weight: 5%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Centerline Deviation
+    Tolerance Lower: -5
+    Tolerance Upper: 5
+    Tolerance Unit: deg
+    Weight: 5%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: THLD crossing AGL (TCH+)
+    Tolerance Lower: 0
+    Tolerance Upper: 30
+    Tolerance Unit: ft
+    Weight: 11%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: THLD crossing AGL above min
+    Tolerance Lower: 5
+    Tolerance Upper: 20
+    Tolerance Unit: ft
+    Weight: 2%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: THLD-crossing IAS [Vref+]
+    Tolerance Lower: -5
+    Tolerance Upper: 10
+    Tolerance Unit: kts
+    Weight: 0%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: IAS over 50 AGL [Vref+]
+    Tolerance Lower: -5
+    Tolerance Upper: 15
+    Tolerance Unit: kts
+    Weight: 11%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: IAS at TD [Vref+]
+    Tolerance Lower: -20
+    Tolerance Upper: -6
+    Tolerance Unit: kts
+    Weight: 7%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Distance from THLD (1000+)
+    Tolerance Lower: -600
+    Tolerance Upper: 1000
+    Tolerance Unit: ft
+    Weight: 0%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Distance from 50 AGL
+    Tolerance Lower: 700
+    Tolerance Upper: 1600
+    Tolerance Unit: ft
+    Weight: 7%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Distance from centerline
+    Tolerance Lower: 0
+    Tolerance Upper: 15
+    Tolerance Unit: ft
+    Weight: 7%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Norm Acceleration
+    Tolerance Lower: 1
+    Tolerance Upper: 1.3
+    Tolerance Unit: g
+    Weight: 5%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Touchdown Lateral Acceleration
+    Tolerance Lower: 0
+    Tolerance Upper: 0.3
+    Tolerance Unit: g
+    Weight: 8%
+
+  - Group: Stabilized Visual approach
+    Segment Group: Approaches
+    Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
+    Tolerance Lower: -200
+    Tolerance Upper: -200
+    Tolerance Unit: ft
+    Weight: 11%
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Max bank in flight
+    Caution Lower: 60
+    Caution Upper: 70
+    Unit: bank
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Max speed below 10000ft
+    Caution Lower: 260
+    Caution Upper: 270
+    Unit: IAS
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Max taxi speed
+    Caution Lower: 30
+    Caution Upper: 35
+    Unit: gs
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - high below 1000ft
+    Caution Lower: 17
+    Caution Upper: 19
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - high below 200ft
+    Caution Lower: 17
+    Caution Upper: 19
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - high below 200ft
+    Caution Lower: 17
+    Caution Upper: 19
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - low below 1000ft
+    Caution Lower: -11
+    Caution Upper: -13
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - low below 200ft
+    Caution Lower: -11
+    Caution Upper: -13
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - low below 50ft
+    Caution Lower: -9
+    Caution Upper: -11
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Pitch - low below 20ft
+    Caution Lower: -3
+    Caution Upper: -4
+    Unit: pitch
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Bank - max below 1000ft
+    Caution Lower: 45
+    Caution Upper: 50
+    Unit: bank
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Bank - max below 200ft
+    Caution Lower: 30
+    Caution Upper: 40
+    Unit: bank
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Sink rate - max below 1000ft
+    Caution Lower: -2000
+    Caution Upper: -2500
+    Unit: VS
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Sink rate - max below 500ft
+    Caution Lower: -1300
+    Caution Upper: -1500
+    Unit: VS
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Sink rate - max below 200ft
+    Caution Lower: -1300
+    Caution Upper: -1500
+    Unit: VS
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: N1 - max below 500ft
+    Caution Lower: 60
+    Caution Upper: 65
+    Unit: N1
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: N1 - min below 200ft
+    Caution Lower: 40
+    Caution Upper: 45
+    Unit: N1
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Outside extnd. RW below 200
+    Caution Lower: 1
+    Caution Upper: 10
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS - max below 1000
+    Caution Lower: 120
+    Caution Upper: 140
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS - max below 500
+    Caution Lower: 120
+    Caution Upper: 140
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS - max below 200
+    Caution Lower: 120
+    Caution Upper: 140
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: AP - engage altitude AFE
+    Caution Lower: 250
+    Caution Upper: 400
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: AP - disengage altitude AFE
+    Caution Lower: 200
+    Caution Upper: 300
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS-Vref - high below 200
+    Caution Lower: 10
+    Caution Upper: 15
+    Unit: kts
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS-Vref - low below 200
+    Caution Lower: -6
+    Caution Upper: -10
+    Unit: kts
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS-Vref - high at 50' AGL
+    Caution Lower: 5
+    Caution Upper: 10
+    Unit: kts
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: IAS-Vref - low at 50' AGL
+    Caution Lower: -6
+    Caution Upper: -10
+    Unit: kts
+
+  - Group: Flight Data Analysis
+    Flight Rules: IFR
+    Evaluate: Configured fully - AFE
+    Caution Lower: 900
+    Caution Upper: 700
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: VFR
+    Evaluate: Configured fully - AFE
+    Caution Lower: 900
+    Caution Upper: 700
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: THLD - high IAS-Vref
+    Caution Lower: 5
+    Caution Upper: 10
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: THLD - low IAS-Vref
+    Caution Lower: -6
+    Caution Upper: -10
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: THLD - high AGL-TCH
+    Caution Lower: 30
+    Caution Upper: 50
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: THLD - low AGL-TCH
+    Caution Lower: -14
+    Caution Upper: -19
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: THLD - low AGL
+    Caution Lower: 10
+    Caution Upper: 20
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Touchdown distance - long
+    Caution Lower: 1500
+    Caution Upper: 2000
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: Touchdown distance - short
+    Caution Lower: 200
+    Caution Upper: 100
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: RWY remaining @40 kts
+    Caution Lower: 600
+    Caution Upper: 400
+    Unit: ft
+
+  - Group: Flight Data Analysis
+    Flight Rules: All
+    Evaluate: RWY remaining @70 kts
+    Caution Lower: 1300
+    Caution Upper: 1000
+    Unit: ft
