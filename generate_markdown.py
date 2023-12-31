@@ -10,7 +10,7 @@ def create_markdown_table(group_df, desired_order):
 
 def main():
     # Load the YAML file
-    yaml_file = 'HJOPA Flight Scoring Envelope.yml'
+    yaml_file = 'HJOPA-Scoring-FDA.yml'
     with open(yaml_file, 'r') as file:
         yaml_data = yaml.safe_load(file)
 
@@ -48,7 +48,7 @@ def main():
             markdown_output += f"## {group}\n\n{markdown_table}\n\n"
 
     # Save the output to a Markdown file
-    with open('HJOPA_Flight_Scoring_Envelope.md', 'w') as md_file:
+    with open('README.md', 'w') as md_file:
         md_file.write(markdown_output)
 
 if __name__ == "__main__":
