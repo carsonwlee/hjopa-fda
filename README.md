@@ -69,3 +69,46 @@
 | Touchdown Lateral Acceleration                   | 9%       |                 0 |               0.3 | g                | N/A                    | N/A                    | N/A               |
 | Minimum Runway Remaining, relative to SOP/MRR_TD | 12%      |              -200 |            -200   | ft               | N/A                    | N/A                    | N/A               |
 
+## Flight Data Analysis
+
+| All   | VFR   | IFR   | Evaluate                     |   Caution Lower |   Caution Upper | Unit   |
+|:------|:------|:------|:-----------------------------|----------------:|----------------:|:-------|
+| x     |       |       | Max bank in flight           |              60 |              70 | bank   |
+| x     |       |       | Max speed below 10000ft      |             260 |             270 | IAS    |
+| x     |       |       | Max taxi speed               |              30 |              35 | gs     |
+| x     |       |       | Pitch - high below 1000ft    |              17 |              19 | pitch  |
+| x     |       |       | Pitch - high below 200ft     |              17 |              19 | pitch  |
+| x     |       |       | Pitch - high below 200ft     |              17 |              19 | pitch  |
+| x     |       |       | Pitch - low below 1000ft     |             -11 |             -13 | pitch  |
+| x     |       |       | Pitch - low below 200ft      |             -11 |             -13 | pitch  |
+| x     |       |       | Pitch - low below 50ft       |              -9 |             -11 | pitch  |
+| x     |       |       | Pitch - low below 20ft       |              -3 |              -4 | pitch  |
+| x     |       |       | Bank - max below 1000ft      |              45 |              50 | bank   |
+| x     |       |       | Bank - max below 200ft       |              30 |              40 | bank   |
+| x     |       |       | Sink rate - max below 1000ft |           -2000 |           -2500 | VS     |
+| x     |       |       | Sink rate - max below 500ft  |           -1300 |           -1500 | VS     |
+| x     |       |       | Sink rate - max below 200ft  |           -1300 |           -1500 | VS     |
+| x     |       |       | N1 - max below 500ft         |              60 |              65 | N1     |
+| x     |       |       | N1 - min below 200ft         |              40 |              45 | N1     |
+| x     |       |       | Outside extnd. RW below 200  |               1 |              10 | ft     |
+| x     |       |       | IAS - max below 1000         |             120 |             140 | ft     |
+| x     |       |       | IAS - max below 500          |             120 |             140 | ft     |
+| x     |       |       | IAS - max below 200          |             120 |             140 | ft     |
+| x     |       |       | AP - engage altitude AFE     |             250 |             400 | ft     |
+| x     |       |       | AP - disengage altitude AFE  |             200 |             300 | ft     |
+| x     |       |       | IAS-Vref - high below 200    |              10 |              15 | kts    |
+| x     |       |       | IAS-Vref - low below 200     |              -6 |             -10 | kts    |
+| x     |       |       | IAS-Vref - high at 50' AGL   |               5 |              10 | kts    |
+| x     |       |       | IAS-Vref - low at 50' AGL    |              -6 |             -10 | kts    |
+|       |       | x     | Configured fully - AFE       |             900 |             700 | ft     |
+|       | x     |       | Configured fully - AFE       |             900 |             700 | ft     |
+| x     |       |       | THLD - high IAS-Vref         |               5 |              10 | ft     |
+| x     |       |       | THLD - low IAS-Vref          |              -6 |             -10 | ft     |
+| x     |       |       | THLD - high AGL-TCH          |              30 |              50 | ft     |
+| x     |       |       | THLD - low AGL-TCH           |             -14 |             -19 | ft     |
+| x     |       |       | THLD - low AGL               |              10 |              20 | ft     |
+| x     |       |       | Touchdown distance - long    |            1500 |            2000 | ft     |
+| x     |       |       | Touchdown distance - short   |             200 |             100 | ft     |
+| x     |       |       | RWY remaining @40 kts        |             600 |             400 | ft     |
+| x     |       |       | RWY remaining @70 kts        |            1300 |            1000 | ft     |
+
