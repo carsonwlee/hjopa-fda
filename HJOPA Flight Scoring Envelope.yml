@@ -1,0 +1,382 @@
+- Group: Overall Weights
+  Evaluate: Maneuvers
+  Weight: 25%
+
+- Group: Overall Weights
+  Evaluate: Approaches
+  Weight: 75%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Altitude at Fixes (GPS)
+  Tolerance Lower: -100
+  Tolerance Unit: ft
+  Weight: 4%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Altitude at Fixes (Baro)
+  Tolerance Lower: -100
+  Tolerance Unit: ft
+  Evaluate lower limit: 500
+  Evaluate upper limit: 1000
+  Evaluation Unit: ft AGL
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Airspeed within range 1000'-500' Non-Circling [Vref+]
+  Tolerance Lower: 0
+  Tolerance Upper: 15
+  Tolerance Unit: kts
+  Evaluate lower limit: 500
+  Evaluate upper limit: 1000
+  Evaluation Unit: ft AGL
+  Weight: 2%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Airspeed within range 1000'-500', Circling [Vref+]
+  Tolerance Lower: 15
+  Tolerance Upper: 25
+  Tolerance Unit: kts
+  Evaluate lower limit: 500
+  Evaluate upper limit: 1000
+  Evaluation Unit: ft AGL
+  Weight: 2%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Airspeed within range 500' AGL to THLD [Vref+]
+  Tolerance Lower: -2
+  Tolerance Upper: 10
+  Tolerance Unit: kts
+  Evaluate lower limit: 500
+  Evaluate upper limit: 1000
+  Evaluation Unit: ft AGL
+  Weight: 3%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: ILS GS accuracy
+  Tolerance Lower: -1
+  Tolerance Upper: 1
+  Tolerance Unit: dots
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: ILS LOC accuracy
+  Tolerance Lower: -1
+  Tolerance Upper: 1
+  Tolerance Unit: dots
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Lateral accuracy after FAF (GPS approach)
+  Tolerance Lower: -1
+  Tolerance Upper: 1
+  Tolerance Unit: dots
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: VOR course accuracy after FAF
+  Tolerance Lower: -6
+  Tolerance Upper: 6
+  Tolerance Unit: deg
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Airspeed consistency
+  Tolerance Lower: -10
+  Tolerance Upper: 10
+  Tolerance Unit: kts
+  Weight: 3%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Vertical speed within range (normal descent)
+  Tolerance Lower: -1000
+  Tolerance Upper: -300
+  Tolerance Unit: fpm
+  Weight: 2%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Vertical speed within range (steep "dive" of dive and drive)
+  Tolerance Lower: -1100
+  Tolerance Upper: -650
+  Tolerance Unit: fpm
+  Weight: 2%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Vertical speed consistency
+  Tolerance Lower: -300
+  Tolerance Upper: 300
+  Tolerance Unit: fpm
+  Weight: 3%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Circling within the protected area
+  Tolerance Lower: 0
+  Tolerance Upper: 0.1
+  Tolerance Unit: nm
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Circling speed
+  Tolerance Lower: 15
+  Tolerance Upper: 25
+  Tolerance Unit: kts
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: TRK over THLD
+  Tolerance Lower: -1.5
+  Tolerance Upper: 1.5
+  Tolerance Unit: deg
+  Weight: 3%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: THLD crossing AGL (TCH+)
+  Tolerance Lower: 0
+  Tolerance Upper: 30
+  Tolerance Unit: ft
+  Weight: 6%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: THLD crossing AGL above min
+  Tolerance Lower: 5
+  Tolerance Upper: 10
+  Tolerance Unit: ft
+  Weight: 6%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: THLD-crossing IAS [Vref+]
+  Tolerance Lower: -5
+  Tolerance Upper: 10
+  Tolerance Unit: kts
+  Weight: 6%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: IAS at TD [Vref+]
+  Tolerance Lower: -20
+  Tolerance Upper: -6
+  Tolerance Unit: kts
+  Weight: 4%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Distance from THLD (1000+)
+  Tolerance Lower: -600
+  Tolerance Upper: 1000
+  Tolerance Unit: ft
+  Weight: 4%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Distance from centerline
+  Tolerance Lower: 0
+  Tolerance Upper: 15
+  Tolerance Unit: ft
+  Weight: 4%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Norm Acceleration
+  Tolerance Lower: 1
+  Tolerance Upper: 1.3
+  Tolerance Unit: g
+  Weight: 3%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Lateral Acceleration
+  Tolerance Lower: 0
+  Tolerance Upper: 0.3
+  Tolerance Unit: g
+  Weight: 5%
+
+- Group: Instrument Approach
+  Segment Group: Approaches
+  Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
+  Tolerance Lower: -200
+  Tolerance Upper: -200
+  Tolerance Unit: ft
+  Weight: 6%
+
+- Group: Safe departure IAS
+  Segment Group: Maneuvers
+  Evaluate: Airspeed above Vx [EFIS data]
+  Tolerance Lower: -1
+  Tolerance Unit: kts
+  Evaluate lower limit: 30
+  Evaluate upper limit: 150
+  Evaluation Unit: ft AGL
+  Weight: 17%
+
+- Group: Safe departure IAS
+  Segment Group: Maneuvers
+  Evaluate: Airspeed above Vy [EFIS data]
+  Tolerance Lower: -1
+  Tolerance Unit: kts
+  Evaluate lower limit: 150
+  Evaluate upper limit: 1000
+  Evaluation Unit: ft AGL
+  Weight: 33%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Airspeed within range [Vref+]
+  Tolerance Lower: -5
+  Tolerance Upper: 10
+  Tolerance Unit: kts
+  Evaluate lower limit: 50
+  Evaluate upper limit: 500
+  Evaluation Unit: ft AGL
+  Weight: 9%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Airspeed consistency
+  Tolerance Lower: -10
+  Tolerance Upper: 10
+  Tolerance Unit: kts
+  Weight: 5%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Vertical speed within range
+  Tolerance Lower: -800
+  Tolerance Upper: -300
+  Tolerance Unit: fpm
+  Evaluate lower limit: 50
+  Evaluate upper limit: 500
+  Weight: 5%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Vertical speed consistency
+  Tolerance Lower: -300
+  Tolerance Upper: 300
+  Tolerance Unit: fpm
+  Evaluate lower limit: 50
+  Evaluate upper limit: 500
+  Weight: 5%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Vertical speed consistency
+  Tolerance Lower: -300
+  Tolerance Upper: 300
+  Tolerance Unit: fpm
+  Evaluate lower limit: 50
+  Evaluate upper limit: 500
+  Weight: 5%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Centerline Deviation
+  Tolerance Lower: -5
+  Tolerance Upper: 5
+  Tolerance Unit: deg
+  Weight: 5%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: THLD crossing AGL (TCH+)
+  Tolerance Lower: 0
+  Tolerance Upper: 30
+  Tolerance Unit: ft
+  Weight: 12%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: THLD crossing AGL above min
+  Tolerance Lower: 5
+  Tolerance Upper: 20
+  Tolerance Unit: ft
+  Weight: 2%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: THLD-crossing IAS [Vref+]
+  Tolerance Lower: -5
+  Tolerance Upper: 10
+  Tolerance Unit: kts
+  Weight: 0%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: IAS over 50 AGL [Vref+]
+  Tolerance Lower: -5
+  Tolerance Upper: 15
+  Tolerance Unit: kts
+  Weight: 12%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: IAS at TD [Vref+]
+  Tolerance Lower: -20
+  Tolerance Upper: -6
+  Tolerance Unit: kts
+  Weight: 7%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Distance from THLD (1000+)
+  Tolerance Lower: -600
+  Tolerance Upper: 1000
+  Tolerance Unit: ft
+  Weight: 0%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Distance from 50 AGL
+  Tolerance Lower: 700
+  Tolerance Upper: 1600
+  Tolerance Unit: ft
+  Weight: 7%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Distance from centerline
+  Tolerance Lower: 0
+  Tolerance Upper: 15
+  Tolerance Unit: ft
+  Weight: 7%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Norm Acceleration
+  Tolerance Lower: 1
+  Tolerance Upper: 1.3
+  Tolerance Unit: g
+  Weight: 5%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Touchdown Lateral Acceleration
+  Tolerance Lower: 0
+  Tolerance Upper: 0.3
+  Tolerance Unit: g
+  Weight: 9%
+
+- Group: Stabilized Visual approach
+  Segment Group: Approaches
+  Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
+  Tolerance Lower: -200
+  Tolerance Upper: -200
+  Tolerance Unit: ft
+  Weight: 12%
