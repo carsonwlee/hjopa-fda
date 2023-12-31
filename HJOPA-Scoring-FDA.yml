@@ -18,8 +18,8 @@
   - Group: Instrument Approach
     Segment Group: Approaches
     Evaluate: Airspeed within range 1000'-500' Non-Circling [Vref+]
-    Tolerance Lower: 0
-    Tolerance Upper: 15
+    Tolerance Lower: -5
+    Tolerance Upper: 20
     Tolerance Unit: kts
     Evaluate lower limit: 500
     Evaluate upper limit: 1000
@@ -29,8 +29,8 @@
   - Group: Instrument Approach
     Segment Group: Approaches
     Evaluate: Airspeed within range 1000'-500', Circling [Vref+]
-    Tolerance Lower: 15
-    Tolerance Upper: 25
+    Tolerance Lower: 5
+    Tolerance Upper: 20
     Tolerance Unit: kts
     Evaluate lower limit: 500
     Evaluate upper limit: 1000
@@ -40,8 +40,8 @@
   - Group: Instrument Approach
     Segment Group: Approaches
     Evaluate: Airspeed within range 500' AGL to THLD [Vref+]
-    Tolerance Lower: -2
-    Tolerance Upper: 10
+    Tolerance Lower: -5
+    Tolerance Upper: 5
     Tolerance Unit: kts
     Evaluate lower limit: 500
     Evaluate upper limit: 1000
@@ -122,7 +122,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Circling speed
+    Evaluate: Circling speed (relative to VRFF)
     Tolerance Lower: 15
     Tolerance Upper: 25
     Tolerance Unit: kts
@@ -156,15 +156,15 @@
     Segment Group: Approaches
     Evaluate: THLD-crossing IAS [Vref+]
     Tolerance Lower: -5
-    Tolerance Upper: 10
+    Tolerance Upper: 5
     Tolerance Unit: kts
     Weight: 6%
 
   - Group: Instrument Approach
     Segment Group: Approaches
     Evaluate: IAS at TD [Vref+]
-    Tolerance Lower: -20
-    Tolerance Upper: -6
+    Tolerance Lower: -10 
+    Tolerance Upper: 0
     Tolerance Unit: kts
     Weight: 4%
 
@@ -172,7 +172,7 @@
     Segment Group: Approaches
     Evaluate: Touchdown Distance from THLD (1000+)
     Tolerance Lower: -600
-    Tolerance Upper: 1000
+    Tolerance Upper: 500
     Tolerance Unit: ft
     Weight: 4%
 
@@ -285,7 +285,7 @@
     Segment Group: Approaches
     Evaluate: THLD-crossing IAS [Vref+]
     Tolerance Lower: -5
-    Tolerance Upper: 10
+    Tolerance Upper: 5
     Tolerance Unit: kts
     Weight: 0%
 
@@ -293,15 +293,15 @@
     Segment Group: Approaches
     Evaluate: IAS over 50 AGL [Vref+]
     Tolerance Lower: -5
-    Tolerance Upper: 15
+    Tolerance Upper: 5
     Tolerance Unit: kts
     Weight: 11%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
     Evaluate: IAS at TD [Vref+]
-    Tolerance Lower: -20
-    Tolerance Upper: -6
+    Tolerance Lower: -10
+    Tolerance Upper: 0
     Tolerance Unit: kts
     Weight: 7%
 
@@ -309,7 +309,7 @@
     Segment Group: Approaches
     Evaluate: Touchdown Distance from THLD (1000+)
     Tolerance Lower: -600
-    Tolerance Upper: 1000
+    Tolerance Upper: 500
     Tolerance Unit: ft
     Weight: 0%
 
