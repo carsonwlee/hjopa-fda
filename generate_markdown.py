@@ -4,6 +4,8 @@ import yaml
 def create_markdown_table(group_df, desired_order):
     available_columns = [col for col in desired_order if col in group_df.columns]
     filtered_df = group_df[available_columns]
+    # Fill NaN values with 'N/A'
+    filtered_df = filtered_df.fillna('N/A')
     return filtered_df.to_markdown(index=False)
 
 def main():
