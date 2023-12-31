@@ -22,7 +22,11 @@ def main():
 
     for group in df['Group'].unique():
         group_df = df[df['Group'] == group]
-        if 'Segment Group' in group_df.columns:
+        if group == 'Overall Weights':
+            # Only use 'Evaluate' and 'Weight' columns for 'Overall Weights'
+            markdown_table = create_markdown_table(group_df, ['Evaluate', 'Weight'])
+            markdown_output += f"## {group}\n\n{markdown_table}\n\n"
+        elif 'Segment Group' in group_df.columns:
             for segment_group in group_df['Segment Group'].unique():
                 segment_group_df = group_df[group_df['Segment Group'] == segment_group]
                 markdown_table = create_markdown_table(segment_group_df, desired_order)

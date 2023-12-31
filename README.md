@@ -1,10 +1,11 @@
 # HJOPA - HondaJet Flight Scoring Envelope
 
 ## Overall Weights
-### nan
 
-| Evaluate   | Weight   | Tolerance Lower   | Tolerance Upper   | Tolerance Unit   | Evaluate lower limit   | Evaluate upper limit   | Evaluation Unit   |
-|------------|----------|-------------------|-------------------|------------------|------------------------|------------------------|-------------------|
+| Evaluate   | Weight   |
+|:-----------|:---------|
+| Maneuvers  | 25%      |
+| Approaches | 75%      |
 
 ## Instrument Approach
 ### Approaches
