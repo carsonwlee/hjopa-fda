@@ -503,15 +503,15 @@
   - Group: Flight Data Analysis
     Flight Rules: All
     Evaluate: AP - engage altitude AFE
-    Caution Lower: 250
-    Caution Upper: 400
+    Caution Lower: 499
+    Caution Upper: 500
     Unit: ft
 
   - Group: Flight Data Analysis
     Flight Rules: All
     Evaluate: AP - disengage altitude AFE
-    Caution Lower: 200
-    Caution Upper: 300
+    Caution Lower: 100
+    Caution Upper: 101
     Unit: ft
 
   - Group: Flight Data Analysis

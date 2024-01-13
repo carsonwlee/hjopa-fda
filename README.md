@@ -79,8 +79,8 @@
 | x     |       |       | IAS - max below 1000         |             120 |             140 | ft     |
 | x     |       |       | IAS - max below 500          |             120 |             140 | ft     |
 | x     |       |       | IAS - max below 200          |             120 |             140 | ft     |
-| x     |       |       | AP - engage altitude AFE     |             250 |             400 | ft     |
-| x     |       |       | AP - disengage altitude AFE  |             200 |             300 | ft     |
+| x     |       |       | AP - engage altitude AFE     |             499 |             500 | ft     |
+| x     |       |       | AP - disengage altitude AFE  |             100 |             101 | ft     |
 | x     |       |       | IAS-Vref - high below 200    |              10 |              15 | kts    |
 | x     |       |       | IAS-Vref - low below 200     |              -6 |             -10 | kts    |
 | x     |       |       | IAS-Vref - high at 50' AGL   |               5 |              10 | kts    |
