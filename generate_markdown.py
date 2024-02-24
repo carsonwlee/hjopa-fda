@@ -38,6 +38,10 @@ def main():
             flight_data_df['Unit'] = group_df['Unit']
             markdown_table = flight_data_df.to_markdown(index=False)
             markdown_output += f"## {group}\n\n{markdown_table}\n\n"
+        elif group == 'Standard Operating Parameters':
+            # Create a markdown table for 'Standard Operating Parameters'
+            markdown_table = create_markdown_table(group_df, ['Characteristic', 'Value'])
+            markdown_output += f"## {group}\n\n{markdown_table}\n\n"
         elif 'Segment Group' in group_df.columns:
             for segment_group in group_df['Segment Group'].unique():
                 segment_group_df = group_df[group_df['Segment Group'] == segment_group]
@@ -50,6 +54,5 @@ def main():
     # Save the output to a Markdown file
     with open('README.md', 'w') as md_file:
         md_file.write(markdown_output)
-
 if __name__ == "__main__":
     main()

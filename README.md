@@ -29,7 +29,7 @@
 | Touchdown Distance from centerline                           | 4%       |               0   | 15.0              | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown Norm Acceleration                                  | 3%       |               1   | 1.3               | g                | N/A                    | N/A                    | N/A               |
 | Touchdown Lateral Acceleration                               | 5%       |               0   | 0.3               | g                | N/A                    | N/A                    | N/A               |
-| Minimum Runway Remaining, relative to SOP/MRR_TD             | 6%       |            -200   | -200.0            | ft               | N/A                    | N/A                    | N/A               |
+| Minimum Runway Remaining, relative to SOP/MRR_TD             | 6%       |               0   | 0.0               | ft               | N/A                    | N/A                    | N/A               |
 
 ## Stabilized Visual approach
 ### Approaches
@@ -52,7 +52,13 @@
 | Touchdown Distance from centerline               | 7%       |                 0 |              15   | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown Norm Acceleration                      | 5%       |                 1 |               1.3 | g                | N/A                    | N/A                    | N/A               |
 | Touchdown Lateral Acceleration                   | 8%       |                 0 |               0.3 | g                | N/A                    | N/A                    | N/A               |
-| Minimum Runway Remaining, relative to SOP/MRR_TD | 11%      |              -200 |            -200   | ft               | N/A                    | N/A                    | N/A               |
+| Minimum Runway Remaining, relative to SOP/MRR_TD | 11%      |                 0 |               0   | ft               | N/A                    | N/A                    | N/A               |
+
+## Standard Operating Parameters
+
+| Characteristic          |   Value |
+|:------------------------|--------:|
+| Min runway at touchdown |    2100 |
 
 ## Flight Data Analysis
 

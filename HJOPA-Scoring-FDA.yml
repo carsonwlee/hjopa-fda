@@ -203,8 +203,8 @@
   - Group: Instrument Approach
     Segment Group: Approaches
     Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
-    Tolerance Lower: -200
-    Tolerance Upper: -200
+    Tolerance Lower: 0
+    Tolerance Upper: 0
     Tolerance Unit: ft
     Weight: 6%
 
@@ -348,10 +348,14 @@
   - Group: Stabilized Visual approach
     Segment Group: Approaches
     Evaluate: Minimum Runway Remaining, relative to SOP/MRR_TD
-    Tolerance Lower: -200
-    Tolerance Upper: -200
+    Tolerance Lower: 0
+    Tolerance Upper: 0
     Tolerance Unit: ft
     Weight: 11%
+
+  - Group: Standard Operating Parameters
+    Characteristic: Min runway at touchdown
+    Value: 2100
 
   - Group: Flight Data Analysis
     Flight Rules: All
