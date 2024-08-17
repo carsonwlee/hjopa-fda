@@ -187,8 +187,8 @@
   - Group: Instrument Approach
     Segment Group: Approaches
     Evaluate: Touchdown Norm Acceleration
-    Tolerance Lower: 1
-    Tolerance Upper: 1.3
+    Tolerance Lower: 1.3
+    Tolerance Upper: 1.5
     Tolerance Unit: g
     Weight: 3%
 

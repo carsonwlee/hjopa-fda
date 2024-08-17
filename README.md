@@ -27,7 +27,7 @@
 | IAS at TD [Vref+]                                            | 4%       |             -10   | 0.0               | kts              | N/A                    | N/A                    | N/A               |
 | Touchdown Distance from THLD (1000+)                         | 4%       |            -600   | 500.0             | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown Distance from centerline                           | 4%       |               0   | 15.0              | ft               | N/A                    | N/A                    | N/A               |
-| Touchdown Norm Acceleration                                  | 3%       |               1   | 1.3               | g                | N/A                    | N/A                    | N/A               |
+| Touchdown Norm Acceleration                                  | 3%       |               1.3 | 1.5               | g                | N/A                    | N/A                    | N/A               |
 | Touchdown Lateral Acceleration                               | 5%       |               0   | 0.3               | g                | N/A                    | N/A                    | N/A               |
 | Minimum Runway Remaining, relative to SOP/MRR_TD             | 6%       |               0   | 0.0               | ft               | N/A                    | N/A                    | N/A               |
 
