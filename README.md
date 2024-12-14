@@ -5,53 +5,52 @@
 
 | Evaluate                                                     | Weight   |   Tolerance Lower | Tolerance Upper   | Tolerance Unit   | Evaluate lower limit   | Evaluate upper limit   | Evaluation Unit   |
 |:-------------------------------------------------------------|:---------|------------------:|:------------------|:-----------------|:-----------------------|:-----------------------|:------------------|
-| Altitude at Fixes (GPS)                                      | 4%       |            -100   | N/A               | ft               | N/A                    | N/A                    | N/A               |
-| Altitude at Fixes (Baro)                                     | 5%       |            -100   | N/A               | ft               | 500.0                  | 1000.0                 | ft AGL            |
+| Altitude at Fixes (GPS)                                      | 1%       |            -100   | N/A               | ft               | N/A                    | N/A                    | N/A               |
+| Altitude at Fixes (Baro)                                     | 1%       |            -100   | N/A               | ft               | 500.0                  | 1000.0                 | ft AGL            |
 | Airspeed within range 1000'-500' Non-Circling [Vref+]        | 2%       |              -5   | 20.0              | kts              | 500.0                  | 1000.0                 | ft AGL            |
 | Airspeed within range 1000'-500', Circling [Vref+]           | 2%       |               5   | 20.0              | kts              | 500.0                  | 1000.0                 | ft AGL            |
-| Airspeed within range 500' AGL to THLD [Vref+]               | 3%       |              -5   | 5.0               | kts              | 500.0                  | 1000.0                 | ft AGL            |
-| ILS GS accuracy                                              | 5%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
-| ILS LOC accuracy                                             | 5%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
-| Lateral accuracy after FAF (GPS approach)                    | 5%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
-| VOR course accuracy after FAF                                | 5%       |              -6   | 6.0               | deg              | N/A                    | N/A                    | N/A               |
-| Airspeed consistency                                         | 3%       |             -10   | 10.0              | kts              | N/A                    | N/A                    | N/A               |
-| Vertical speed within range (normal descent)                 | 2%       |           -1000   | -300.0            | fpm              | N/A                    | N/A                    | N/A               |
-| Vertical speed within range (steep "dive" of dive and drive) | 2%       |           -1100   | -650.0            | fpm              | N/A                    | N/A                    | N/A               |
-| Vertical speed consistency                                   | 3%       |            -300   | 300.0             | fpm              | N/A                    | N/A                    | N/A               |
-| Circling within the protected area                           | 5%       |               0   | 0.1               | nm               | N/A                    | N/A                    | N/A               |
+| Airspeed within range 500' AGL to THLD [Vref+]               | 9%       |              -5   | 5.0               | kts              | 500.0                  | 1000.0                 | ft AGL            |
+| ILS GS accuracy                                              | 1%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
+| ILS LOC accuracy                                             | 1%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
+| Lateral accuracy after FAF (GPS approach)                    | 1%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
+| VOR course accuracy after FAF                                | 1%       |              -6   | 6.0               | deg              | N/A                    | N/A                    | N/A               |
+| Airspeed consistency                                         | 1%       |             -10   | 10.0              | kts              | N/A                    | N/A                    | N/A               |
+| Vertical speed within range (normal descent)                 | 1%       |           -1000   | -300.0            | fpm              | N/A                    | N/A                    | N/A               |
+| Vertical speed within range (steep "dive" of dive and drive) | 1%       |           -1100   | -650.0            | fpm              | N/A                    | N/A                    | N/A               |
+| Vertical speed consistency                                   | 1%       |            -300   | 300.0             | fpm              | N/A                    | N/A                    | N/A               |
+| Circling within the protected area                           | 1%       |               0   | 0.1               | nm               | N/A                    | N/A                    | N/A               |
 | Circling speed (relative to VRFF)                            | 5%       |              15   | 25.0              | kts              | N/A                    | N/A                    | N/A               |
 | TRK over THLD                                                | 3%       |              -1.5 | 1.5               | deg              | N/A                    | N/A                    | N/A               |
-| THLD crossing AGL (TCH+)                                     | 6%       |               0   | 30.0              | ft               | N/A                    | N/A                    | N/A               |
-| THLD crossing AGL above min                                  | 6%       |               5   | 10.0              | ft               | N/A                    | N/A                    | N/A               |
-| THLD-crossing IAS [Vref+]                                    | 6%       |              -5   | 5.0               | kts              | N/A                    | N/A                    | N/A               |
-| IAS at TD [Vref+]                                            | 4%       |             -10   | 0.0               | kts              | N/A                    | N/A                    | N/A               |
-| Touchdown Distance from THLD (1000+)                         | 4%       |            -600   | 500.0             | ft               | N/A                    | N/A                    | N/A               |
-| Touchdown Distance from centerline                           | 4%       |               0   | 15.0              | ft               | N/A                    | N/A                    | N/A               |
-| Touchdown Norm Acceleration                                  | 3%       |               1.3 | 1.5               | g                | N/A                    | N/A                    | N/A               |
-| Touchdown Lateral Acceleration                               | 5%       |               0   | 0.3               | g                | N/A                    | N/A                    | N/A               |
-| Minimum Runway Remaining, relative to SOP/MRR_TD             | 6%       |               0   | 0.0               | ft               | N/A                    | N/A                    | N/A               |
+| THLD crossing AGL (TCH+)                                     | 15%      |               0   | 30.0              | ft               | N/A                    | N/A                    | N/A               |
+| THLD crossing AGL above min                                  | 5%       |               5   | 10.0              | ft               | N/A                    | N/A                    | N/A               |
+| THLD-crossing IAS [Vref+]                                    | 19%      |              -5   | 3.0               | kts              | N/A                    | N/A                    | N/A               |
+| IAS at TD [Vref+]                                            | 24%      |             -10   | 0.0               | kts              | N/A                    | N/A                    | N/A               |
+| Touchdown Distance from THLD (1000+)                         | 8%       |            -200   | 200.0             | ft               | N/A                    | N/A                    | N/A               |
+| Touchdown Distance from centerline                           | 5%       |               0   | 15.0              | ft               | N/A                    | N/A                    | N/A               |
+| Touchdown Norm Acceleration                                  | 5%       |               1.3 | 1.5               | g                | N/A                    | N/A                    | N/A               |
+| Touchdown Lateral Acceleration                               | 3%       |               0   | 0.3               | g                | N/A                    | N/A                    | N/A               |
+| Minimum Runway Remaining, relative to SOP/MRR_TD             | 7%       |               0   | 0.0               | ft               | N/A                    | N/A                    | N/A               |
 
 ## Stabilized Visual approach
 ### Approaches
 
 | Evaluate                                         | Weight   |   Tolerance Lower |   Tolerance Upper | Tolerance Unit   | Evaluate lower limit   | Evaluate upper limit   | Evaluation Unit   |
 |:-------------------------------------------------|:---------|------------------:|------------------:|:-----------------|:-----------------------|:-----------------------|:------------------|
-| Airspeed within range [Vref+]                    | 8%       |              -5   |              10   | kts              | 50.0                   | 500.0                  | ft AGL            |
+| Airspeed within range [Vref+]                    | 5%       |              -5   |              10   | kts              | 50.0                   | 500.0                  | ft AGL            |
 | Airspeed consistency                             | 5%       |             -10   |              10   | kts              | N/A                    | N/A                    | N/A               |
-| Vertical speed within range                      | 5%       |            -800   |            -300   | fpm              | 50.0                   | 500.0                  | N/A               |
-| Vertical speed consistency                       | 5%       |            -300   |             300   | fpm              | 50.0                   | 500.0                  | N/A               |
-| Vertical speed consistency                       | 5%       |            -300   |             300   | fpm              | 50.0                   | 500.0                  | N/A               |
+| Vertical speed within range                      | 2%       |            -800   |            -300   | fpm              | 50.0                   | 500.0                  | N/A               |
+| Vertical speed consistency                       | 2%       |            -300   |             300   | fpm              | 50.0                   | 500.0                  | N/A               |
 | Centerline Deviation                             | 5%       |              -5   |               5   | deg              | N/A                    | N/A                    | N/A               |
-| THLD crossing AGL (TCH+)                         | 11%      |               0   |              30   | ft               | N/A                    | N/A                    | N/A               |
-| THLD crossing AGL above min                      | 2%       |               5   |              20   | ft               | N/A                    | N/A                    | N/A               |
-| THLD-crossing IAS [Vref+]                        | 0%       |              -5   |               5   | kts              | N/A                    | N/A                    | N/A               |
-| IAS over 50 AGL [Vref+]                          | 11%      |              -5   |               5   | kts              | N/A                    | N/A                    | N/A               |
-| IAS at TD [Vref+]                                | 7%       |             -10   |               0   | kts              | N/A                    | N/A                    | N/A               |
-| Touchdown Distance from THLD (1000+)             | 0%       |            -600   |             500   | ft               | N/A                    | N/A                    | N/A               |
-| Touchdown Distance from 50 AGL                   | 7%       |             700   |            1600   | ft               | N/A                    | N/A                    | N/A               |
-| Touchdown Distance from centerline               | 7%       |               0   |              15   | ft               | N/A                    | N/A                    | N/A               |
+| THLD crossing AGL (TCH+)                         | 15%      |               0   |              30   | ft               | N/A                    | N/A                    | N/A               |
+| THLD crossing AGL above min                      | 3%       |               5   |              20   | ft               | N/A                    | N/A                    | N/A               |
+| THLD-crossing IAS [Vref+]                        | 10%      |              -2   |               2   | kts              | N/A                    | N/A                    | N/A               |
+| IAS over 50 AGL [Vref+]                          | 25%      |              -5   |               5   | kts              | N/A                    | N/A                    | N/A               |
+| IAS at TD [Vref+]                                | 25%      |             -10   |               0   | kts              | N/A                    | N/A                    | N/A               |
+| Touchdown Distance from THLD (1000+)             | 8%       |            -200   |             200   | ft               | N/A                    | N/A                    | N/A               |
+| Touchdown Distance from 50 AGL                   | 8%       |             800   |            1200   | ft               | N/A                    | N/A                    | N/A               |
+| Touchdown Distance from centerline               | 5%       |               0   |              15   | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown Norm Acceleration                      | 5%       |               1.3 |               1.5 | g                | N/A                    | N/A                    | N/A               |
-| Touchdown Lateral Acceleration                   | 8%       |               0   |               0.3 | g                | N/A                    | N/A                    | N/A               |
+| Touchdown Lateral Acceleration                   | 3%       |               0   |               0.3 | g                | N/A                    | N/A                    | N/A               |
 | Minimum Runway Remaining, relative to SOP/MRR_TD | 11%      |               0   |               0   | ft               | N/A                    | N/A                    | N/A               |
 
 ## Standard Operating Parameters
