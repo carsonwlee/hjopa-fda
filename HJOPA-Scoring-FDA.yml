@@ -46,7 +46,7 @@
     Evaluate lower limit: 500
     Evaluate upper limit: 1000
     Evaluation Unit: ft AGL
-    Weight: 6%
+    Weight: 10%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -142,7 +142,7 @@
     Tolerance Lower: 0
     Tolerance Upper: 30
     Tolerance Unit: ft
-    Weight: 11%
+    Weight: 8%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -158,7 +158,7 @@
     Tolerance Lower: -5
     Tolerance Upper: 3
     Tolerance Unit: kts
-    Weight: 12%
+    Weight: 9%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -166,7 +166,7 @@
     Tolerance Lower: -10
     Tolerance Upper: 0
     Tolerance Unit: kts
-    Weight: 19%
+    Weight: 20%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -190,7 +190,7 @@
     Tolerance Lower: 1.3
     Tolerance Upper: 1.5
     Tolerance Unit: g
-    Weight: 5%
+    Weight: 6%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -261,7 +261,7 @@
     Tolerance Lower: 0
     Tolerance Upper: 30
     Tolerance Unit: ft
-    Weight: 5%
+    Weight: 8%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -277,7 +277,7 @@
     Tolerance Lower: -2
     Tolerance Upper: 2
     Tolerance Unit: kts
-    Weight: 6%
+    Weight: 9%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -285,7 +285,7 @@
     Tolerance Lower: -5
     Tolerance Upper: 5
     Tolerance Unit: kts
-    Weight: 16%
+    Weight: 12%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -293,7 +293,7 @@
     Tolerance Lower: -10
     Tolerance Upper: 0
     Tolerance Unit: kts
-    Weight: 22%
+    Weight: 21%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -325,7 +325,7 @@
     Tolerance Lower: 1.3
     Tolerance Upper: 1.5
     Tolerance Unit: g
-    Weight: 6%
+    Weight: 5%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
