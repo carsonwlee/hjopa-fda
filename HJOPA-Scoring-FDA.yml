@@ -1,13 +1,13 @@
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Altitude at Fixes (GPS)
+    Evaluate: Crossing altitudes maintained (GPS)
     Tolerance Lower: -100
     Tolerance Unit: ft
     Weight: 1%
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Altitude at Fixes (Baro)
+    Evaluate: Crossing altitudes maintained (Baro)
     Tolerance Lower: -100
     Tolerance Unit: ft
     Evaluate lower limit: 500
@@ -17,7 +17,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Airspeed within range 1000'-500' Non-Circling [Vref+]
+    Evaluate: Airspeed from 1000' AFE to 500' AFE (non-circling) [Vref+]
     Tolerance Lower: -5
     Tolerance Upper: 20
     Tolerance Unit: kts
@@ -28,7 +28,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Airspeed within range 1000'-500', Circling [Vref+]
+    Evaluate: Airspeed from 1000' AFE to 500' AFE (circling) [Vref+]
     Tolerance Lower: 5
     Tolerance Upper: 20
     Tolerance Unit: kts
@@ -39,7 +39,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Airspeed within range 500' AGL to THLD [Vref+]
+    Evaluate: Airspeed from 500' AFE to threshold [Vref+]
     Tolerance Lower: -5
     Tolerance Upper: 5
     Tolerance Unit: kts
@@ -50,7 +50,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: ILS GS accuracy
+    Evaluate: ILS glideslope deviation (2 dots=fsd)
     Tolerance Lower: -1
     Tolerance Upper: 1
     Tolerance Unit: dots
@@ -58,7 +58,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: ILS LOC accuracy
+    Evaluate: ILS localizer deviation (2 dots=fsd)
     Tolerance Lower: -1
     Tolerance Upper: 1
     Tolerance Unit: dots
@@ -66,7 +66,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Lateral accuracy after FAF (GPS approach)
+    Evaluate: Deviation from GPS course after FAF (2 dots=fsd)
     Tolerance Lower: -1
     Tolerance Upper: 1
     Tolerance Unit: dots
@@ -74,7 +74,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: VOR course accuracy after FAF
+    Evaluate: Deviation from VOR course after FAF
     Tolerance Lower: -6
     Tolerance Upper: 6
     Tolerance Unit: deg
@@ -82,7 +82,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Airspeed consistency
+    Evaluate: Airspeed consistent
     Tolerance Lower: -10
     Tolerance Upper: 10
     Tolerance Unit: kts
@@ -90,7 +90,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Vertical speed within range (normal descent)
+    Evaluate: Sink rate range in IAP
     Tolerance Lower: -1000
     Tolerance Upper: -300
     Tolerance Unit: fpm
@@ -98,7 +98,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Vertical speed within range (steep "dive" of dive and drive)
+    Evaluate: Sink rate range in IAP "dive"
     Tolerance Lower: -1100
     Tolerance Upper: -650
     Tolerance Unit: fpm
@@ -106,7 +106,7 @@
 
   - Group: Instrument Approach
     Segment Group: Approaches
-    Evaluate: Vertical speed consistency
+    Evaluate: Vertical speed consistent
     Tolerance Lower: -300
     Tolerance Upper: 300
     Tolerance Unit: fpm
@@ -221,7 +221,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Airspeed consistency
+    Evaluate: Airspeed consistent
     Tolerance Lower: -10
     Tolerance Upper: 10
     Tolerance Unit: kts
@@ -229,7 +229,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Vertical speed within range
+    Evaluate: Sink rate within range
     Tolerance Lower: -800
     Tolerance Upper: -300
     Tolerance Unit: fpm
@@ -239,7 +239,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Vertical speed consistency
+    Evaluate: Vertical speed consistent
     Tolerance Lower: -300
     Tolerance Upper: 300
     Tolerance Unit: fpm
@@ -249,7 +249,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Centerline deviation
+    Evaluate: Centerline deviation on Final
     Tolerance Lower: -5
     Tolerance Upper: 5
     Tolerance Unit: deg
@@ -257,7 +257,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Altitude AGL at threshold (TCH+)
+    Evaluate: Altitude AGL over threshold (TCH+)
     Tolerance Lower: 0
     Tolerance Upper: 30
     Tolerance Unit: ft
@@ -265,7 +265,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Altitude AGL at threshold above min
+    Evaluate: Altitude AGL over threshold (above min)
     Tolerance Lower: 5
     Tolerance Upper: 20
     Tolerance Unit: ft
@@ -281,7 +281,7 @@
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
-    Evaluate: Airspeed over 50 AGL [Vref+]
+    Evaluate: Airspeed at 50 AGL [Vref+]
     Tolerance Lower: -5
     Tolerance Upper: 5
     Tolerance Unit: kts
