@@ -28,15 +28,18 @@ Speed errors create a compounding problem due to quadratic relationships:
   - The brakes must absorb this additional energy, requiring more runway
 
 - **Lift**: Also grows quadratically with speed (L = ½ρV²SCL)
-  - More lift = less weight on wheels = less braking force available
+  - More lift = less weight on wheels = **reduced tire friction** = less braking force available
   - Touchdown at higher speeds occurs at lower angle of attack, reducing ability to dump lift by lowering the nose
   - This prolongs ground roll and reduces stopping effectiveness
+  - **Critical linkage**: Residual lift → less weight on wheels → inadequate tire friction → compromised braking effectiveness
+  - **Lateral/directional control**: The same reduction in tire friction from residual lift also compromises lateral directional control. In crosswind conditions, the aircraft's vertical stabilizer and rudder create weathervaning forces that tend to align the aircraft with the relative wind. With less weight on wheels (and thus less tire friction), the tires have reduced ability to resist these lateral forces, making the aircraft more susceptible to drifting off the centerline and increasing the risk of lateral runway excursions.
 
-- **The Double Penalty**: Excess speed means you have:
+- **The Triple Penalty**: Excess speed means you have:
   1. More energy to dissipate (kinetic energy)
-  2. Less ability to dissipate it (reduced braking force from residual lift)
+  2. Less ability to dissipate it longitudinally due to **reduced tire friction from residual lift keeping weight off the wheels**
+  3. Reduced lateral/directional control authority—with less weight on wheels, tire friction is diminished, making the aircraft more susceptible to weathervaning effects from crosswinds. The rudder and vertical stabilizer naturally want to align the aircraft with the relative wind, and reduced tire friction provides less resistance to these lateral forces, increasing the risk of lateral runway excursions off the centerline.
 
-**Aircraft-Specific Amplification**: Without thrust reversers and with limited ground spoilers (Elite II only, partial coverage), the HondaJet relies heavily on brake effectiveness. Excess speed directly compromises this critical deceleration method.
+**Aircraft-Specific Amplification**: Without thrust reversers and with limited ground spoilers (Elite II only, partial coverage), the HondaJet relies heavily on brake effectiveness. Excess speed directly compromises this critical deceleration method by maintaining residual lift that reduces weight on wheels, thereby limiting tire friction—the fundamental requirement for effective braking.
 
 ### Why Touchdown Position and Runway Remaining Matter (12-14%)
 
@@ -92,7 +95,7 @@ The weights aren't just numbers—they reflect real physics, real aircraft limit
 
 ---
 
-*This weighting rationale is based on historical HondaJet excursion data, fundamental aerodynamic and kinetic energy relationships, and the aircraft's specific design constraints. For technical details on the weighting methodology, see `LLM_Scoring_Guidance.md`.*
+*This weighting rationale is based on historical HondaJet excursion data, fundamental aerodynamic and kinetic energy relationships, and the aircraft's specific design constraints.*
 
 ---
 
