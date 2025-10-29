@@ -95,7 +95,7 @@ The weights aren't just numbers—they reflect real physics, real aircraft limit
 
 ---
 
-*This weighting rationale is based on historical HondaJet excursion data, fundamental aerodynamic and kinetic energy relationships, and the aircraft's specific design constraints. For technical details on the weighting methodology, see `LLM_Scoring_Guidance.md`.*
+*This weighting rationale is based on historical HondaJet excursion data, fundamental aerodynamic and kinetic energy relationships, and the aircraft's specific design constraints.*
 
 ---
 """
