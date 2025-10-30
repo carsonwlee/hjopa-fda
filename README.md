@@ -113,7 +113,7 @@ The weights aren't just numbers—they reflect real physics, real aircraft limit
 | ILS localizer deviation (2 dots=fsd)                       | 1%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
 | Deviation from GPS course after FAF (2 dots=fsd)           | 1%       |              -1   | 1.0               | dots             | N/A                    | N/A                    | N/A               |
 | Deviation from VOR course after FAF                        | 1%       |              -6   | 6.0               | deg              | N/A                    | N/A                    | N/A               |
-| Airspeed consistent                                        | 2%       |             -10   | 10.0              | kts              | N/A                    | N/A                    | N/A               |
+| Airspeed consistent                                        | 3%       |             -10   | 10.0              | kts              | N/A                    | N/A                    | N/A               |
 | Sink rate range in IAP                                     | 1%       |           -1000   | -300.0            | fpm              | N/A                    | N/A                    | N/A               |
 | Sink rate range in IAP "dive"                              | 1%       |           -1100   | -650.0            | fpm              | N/A                    | N/A                    | N/A               |
 | Vertical speed consistent                                  | 2%       |            -300   | 300.0             | fpm              | N/A                    | N/A                    | N/A               |
@@ -122,13 +122,13 @@ The weights aren't just numbers—they reflect real physics, real aircraft limit
 | Track over threshold aligned with runway                   | 3%       |              -1.5 | 1.5               | deg              | N/A                    | N/A                    | N/A               |
 | Altitude AGL at threshold (TCH+)                           | 4%       |               0   | 30.0              | ft               | N/A                    | N/A                    | N/A               |
 | Altitude AGL at threshold above min                        | 3%       |               5   | 10.0              | ft               | N/A                    | N/A                    | N/A               |
-| Airspeed over threshold [Vref+]                            | 16%      |              -5   | 3.0               | kts              | N/A                    | N/A                    | N/A               |
-| Airspeed at touchdown [Vref+]                              | 14%      |             -10   | 0.0               | kts              | N/A                    | N/A                    | N/A               |
-| Touchdown distance from threshold                          | 12%      |            -200   | 200.0             | ft               | N/A                    | N/A                    | N/A               |
+| Airspeed over threshold [Vref+]                            | 18%      |              -5   | 3.0               | kts              | N/A                    | N/A                    | N/A               |
+| Airspeed at touchdown [Vref+]                              | 16%      |             -10   | 0.0               | kts              | N/A                    | N/A                    | N/A               |
+| Touchdown distance from threshold                          | 14%      |            -200   | 200.0             | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown distance from centerline                         | 1%       |               0   | 15.0              | ft               | N/A                    | N/A                    | N/A               |
 | Vertical acceleration at touchdown                         | 1%       |               1.3 | 1.5               | g                | N/A                    | N/A                    | N/A               |
 | Side loading at touchdown                                  | 1%       |               0   | 0.3               | g                | N/A                    | N/A                    | N/A               |
-| Runway remaining at touchdown                              | 13%      |               0   | 0.0               | ft               | N/A                    | N/A                    | N/A               |
+| Runway remaining at touchdown                              | 6%       |               0   | 0.0               | ft               | N/A                    | N/A                    | N/A               |
 
 ## Stabilized Visual approach
 ### Approaches
@@ -142,15 +142,15 @@ The weights aren't just numbers—they reflect real physics, real aircraft limit
 | Centerline deviation on Final           | 3%       |              -5   |               5   | deg              | N/A                    | N/A                    | N/A               |
 | Altitude AGL over threshold (TCH+)      | 5%       |               0   |              30   | ft               | N/A                    | N/A                    | N/A               |
 | Altitude AGL over threshold (above min) | 4%       |               5   |              20   | ft               | N/A                    | N/A                    | N/A               |
-| Airspeed over threshold [Vref+]         | 18%      |              -2   |               2   | kts              | N/A                    | N/A                    | N/A               |
-| Airspeed at 50 AGL [Vref+]              | 7%       |              -5   |               5   | kts              | N/A                    | N/A                    | N/A               |
-| Airspeed at touchdown [Vref+]           | 16%      |             -10   |               0   | kts              | N/A                    | N/A                    | N/A               |
-| Touchdown distance from threshold       | 13%      |            -200   |             200   | ft               | N/A                    | N/A                    | N/A               |
+| Airspeed over threshold [Vref+]         | 20%      |              -2   |               2   | kts              | N/A                    | N/A                    | N/A               |
+| Airspeed at 50 AGL [Vref+]              | 8%       |              -5   |               5   | kts              | N/A                    | N/A                    | N/A               |
+| Airspeed at touchdown [Vref+]           | 18%      |             -10   |               0   | kts              | N/A                    | N/A                    | N/A               |
+| Touchdown distance from threshold       | 15%      |            -200   |             200   | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown distance from 50 AGL          | 3%       |             800   |            1200   | ft               | N/A                    | N/A                    | N/A               |
 | Touchdown distance from centerline      | 1%       |               0   |              15   | ft               | N/A                    | N/A                    | N/A               |
 | Vertical acceleration at touchdown      | 1%       |               1.3 |               1.5 | g                | N/A                    | N/A                    | N/A               |
 | Side loading at touchdown               | 1%       |               0   |               0.3 | g                | N/A                    | N/A                    | N/A               |
-| Runway remaining at touchdown           | 14%      |               0   |               0   | ft               | N/A                    | N/A                    | N/A               |
+| Runway remaining at touchdown           | 7%       |               0   |               0   | ft               | N/A                    | N/A                    | N/A               |
 
 ## Standard Operating Parameters
 

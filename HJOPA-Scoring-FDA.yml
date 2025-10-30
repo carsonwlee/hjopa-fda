@@ -86,7 +86,7 @@
     Tolerance Lower: -10
     Tolerance Upper: 10
     Tolerance Unit: kts
-    Weight: 2%
+    Weight: 3%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -158,7 +158,7 @@
     Tolerance Lower: -5
     Tolerance Upper: 3
     Tolerance Unit: kts
-    Weight: 16%
+    Weight: 18%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -166,7 +166,7 @@
     Tolerance Lower: -10
     Tolerance Upper: 0
     Tolerance Unit: kts
-    Weight: 14%
+    Weight: 16%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -174,7 +174,7 @@
     Tolerance Lower: -200
     Tolerance Upper: 200
     Tolerance Unit: ft
-    Weight: 12%
+    Weight: 14%
 
   - Group: Instrument Approach
     Segment Group: Approaches
@@ -206,7 +206,7 @@
     Tolerance Lower: 0
     Tolerance Upper: 0
     Tolerance Unit: ft
-    Weight: 13%
+    Weight: 6%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -277,7 +277,7 @@
     Tolerance Lower: -2
     Tolerance Upper: 2
     Tolerance Unit: kts
-    Weight: 18%
+    Weight: 20%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -285,7 +285,7 @@
     Tolerance Lower: -5
     Tolerance Upper: 5
     Tolerance Unit: kts
-    Weight: 7%
+    Weight: 8%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -293,7 +293,7 @@
     Tolerance Lower: -10
     Tolerance Upper: 0
     Tolerance Unit: kts
-    Weight: 16%
+    Weight: 18%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -301,7 +301,7 @@
     Tolerance Lower: -200
     Tolerance Upper: 200
     Tolerance Unit: ft
-    Weight: 13%
+    Weight: 15%
 
   - Group: Stabilized Visual approach
     Segment Group: Approaches
@@ -341,7 +341,7 @@
     Tolerance Lower: 0
     Tolerance Upper: 0
     Tolerance Unit: ft
-    Weight: 14%
+    Weight: 7%
 
   - Group: Standard Operating Parameters
     Characteristic: Min runway at touchdown
