@@ -15,7 +15,7 @@ Runway excursions represent the most significant landing risk for the HondaJet. 
 3. **Aircraft-Specific Design**: HondaJet limitations (no thrust reversers, limited ground spoilers) amplify the importance of energy management
 4. **Direct vs. Indirect Impact**: Measurements at critical points (threshold/touchdown) are weighted higher than predictive stability metrics
 
-### Why Airspeed Gets the Highest Weights (16-18% at threshold, 14-16% at touchdown)
+### Why Airspeed Gets the Highest Weights (18-20% at threshold, 16-18% at touchdown)
 
 **Historical Evidence**: Excessive airspeed has been identified as a primary factor in nearly all HondaJet runway excursions. Pilots often add unnecessary speed to VREF calculations, which becomes increasingly problematic closer to touchdown.
 
@@ -41,19 +41,19 @@ Speed errors create a compounding problem due to quadratic relationships:
 
 **Aircraft-Specific Amplification**: Without thrust reversers and with limited ground spoilers (Elite II only, partial coverage), the HondaJet relies heavily on brake effectiveness. Excess speed directly compromises this critical deceleration method by maintaining residual lift that reduces weight on wheels, thereby limiting tire friction—the fundamental requirement for effective braking.
 
-### Why Touchdown Position and Runway Remaining Matter (12-14%)
+### Why Touchdown Position and Runway Remaining Matter (14-15% touchdown distance, 6-7% runway remaining)
 
 Second only to airspeed, these factors directly determine whether sufficient runway remains to stop safely:
 
-- **Touchdown Distance from Threshold (12-13%)**: Early touchdown maximizes available runway length for deceleration. Late touchdown, especially when combined with excess speed, severely limits safety margins.
+- **Touchdown Distance from Threshold (14-15%)**: Early touchdown maximizes available runway length for deceleration. Late touchdown, especially when combined with excess speed, severely limits safety margins.
 
-- **Runway Remaining at Touchdown (13-14%)**: This is a direct outcome measurement—how much runway is left when the aircraft touches down. With brake-limited deceleration, every foot counts.
+- **Runway Remaining at Touchdown (6-7%)**: This is a direct outcome measurement—how much runway is left when the aircraft touches down. With brake-limited deceleration, every foot counts. *Note: While this factor is important, it receives reduced weight (6-7%) relative to historical values because it's statistically rare for pilots to land on runways shorter than 2100ft, and the score should reflect the more common factors that contribute to excursion risk.*
 
 These factors interact: being high or fast over the threshold directly affects touchdown position, which on shorter runways can be decisive in avoiding an excursion.
 
 ### Why Stability Metrics Are Weighted Lower (2-3%)
 
-Stability metrics like "Airspeed consistent" and "Vertical speed consistent" receive lower weights (typically 2%) not because they're unimportant, but because they serve a **predictive/supporting role** rather than being direct measurements of excursion risk.
+Stability metrics like "Airspeed consistent" and "Vertical speed consistent" receive lower weights (typically 3%) not because they're unimportant, but because they serve a **predictive/supporting role** rather than being direct measurements of excursion risk.
 
 - They provide early warning of potential problems
 - Statistical correlation shows that unstable approaches lead to poorer threshold performance
@@ -72,14 +72,14 @@ Items like ILS glideslope deviation, localizer deviation, and crossing altitudes
 ### Weight Distribution Summary
 
 **Instrument Approaches**:
-- **Airspeed metrics**: 42% total (cumulative across approach phases, with highest at threshold/touchdown)
-- **Touchdown/runway factors**: 25% (touchdown distance + runway remaining)
-- **Critical factors combined**: 67% of total weight on the highest-risk elements
+- **Airspeed metrics**: 54% total (cumulative across approach phases, with highest at threshold/touchdown)
+- **Touchdown/runway factors**: 20% (touchdown distance + runway remaining)
+- **Critical factors combined**: 74% of total weight on the highest-risk elements
 
 **Visual Approaches**:
-- **Airspeed metrics**: 50% total (even higher emphasis due to lack of glideslope guidance)
-- **Touchdown/runway factors**: 27% 
-- **Critical factors combined**: 77% of total weight
+- **Airspeed metrics**: 57% total (even higher emphasis due to lack of glideslope guidance)
+- **Touchdown/runway factors**: 22% 
+- **Critical factors combined**: 79% of total weight
 
 All weight categories total 100%, ensuring complete scoring coverage while prioritizing factors with the greatest impact on runway safety.
 
